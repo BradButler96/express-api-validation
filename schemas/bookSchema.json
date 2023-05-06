@@ -1,0 +1,86 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "isbn"
+    ],
+    "properties": {
+        "isbn": {
+            "type": "string",
+            "default": "",
+            "title": "The isbn Schema",
+            "examples": [
+                "9780547572482"
+            ]
+        },
+        "amazon_url": {
+            "type": "string",
+            "default": "",
+            "title": "The amazon_url Schema",
+            "examples": [
+                "amazon.com/books/dingle-berry"
+            ]
+        },
+        "author": {
+            "type": "string",
+            "default": "",
+            "title": "The author Schema",
+            "examples": [
+                "dingle berry"
+            ]
+        },
+        "language": {
+            "type": "string",
+            "default": "",
+            "title": "The language Schema",
+            "examples": [
+                "english"
+            ]
+        },
+        "pages": {
+            "type": "integer",
+            "default": 0,
+            "title": "The pages Schema",
+            "examples": [
+                12
+            ]
+        },
+        "publisher": {
+            "type": "string",
+            "default": "",
+            "title": "The publisher Schema",
+            "examples": [
+                "publisher"
+            ]
+        },
+        "title": {
+            "type": "string",
+            "default": "",
+            "title": "The title Schema",
+            "examples": [
+                "title"
+            ]
+        },
+        "year": {
+            "type": "integer",
+            "default": "",
+            "title": "The year Schema",
+            "examples": [
+                2023
+            ]
+        }
+    },
+    "examples": [{
+        "isbn": "0547572484",
+        "amazon_url": "https://www.amazon.com/Man-High-Castle-Philip-Dick/dp/0547572484",
+        "author": "Phillip K. Dick",
+        "language": "english",
+        "pages": 288,
+        "publisher": "Mariner Books Classics; Reissue edition",
+        "title": "The Man In The High Castle",
+        "year": 2012
+    }]
+}
